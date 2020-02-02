@@ -1,9 +1,9 @@
-title: devlopr-jekyll
-subtitle: A Gem based Jekyll theme built for Developers
+title: Blog | H_Xian
+subtitle: Backend Engineer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
-url: "https://devlopr.netlify.com" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://n960321.github.io/" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -11,41 +11,41 @@ urls:
       url: /
     - text: Blog
       url: /blog
-    - text: Shop
-      url : /shop/
-    - text: Contact Me
-      url : /contact/
-    - text: Styleguide
-      url: /styleguide/
-    
+    # - text: Shop
+    #   url : /shop
+    # - text: Contact Me
+    #   url : /contact
+    # - text: Styleguide
+    #   url: /styleguide
 
-# Edit these details 
+
+# Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: H_Xian
+author_bio: 嗨，我是黃賢。出生於1994，對任何事物都充滿好奇，且不輕言放棄。這個網站用來介紹我自己 和 記錄我在程式語言相關的部落格。
+author_email: "n960321@gmail.com"
+author_location: Taichung , Taiwan
+# author_website_url: "http://johndoe.com"
 
-author_work_experiences: 
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+author_work_experiences:
+            - company_name: 光晨科技有限公司
+              company_logo: kc.png
+              # company_url: https://google.com
+              designation: Backend Engineer
+              description: 開發及維護遊戲伺服器專案
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: 恩連科技有限公司
+              company_logo: netbwm.png
+              company_url: http://www.netbwm.com
+              designation: Developer
+              description: 串接POS系統行動支付功能、開發優惠券系統、開發LINE Bot
               visibility: true
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
+              - college_logo: ncut.jpg
+                college_name: 國立勤益科技大學
+                college_url: http://web2.ncut.edu.tw/
                 college_degree: CS Engineer
                 description: Bachelor of Technology
                 visibility: true
@@ -63,25 +63,25 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+# twitter_username: 
+github_username:  n960321
+# facebook_username: johndoe
+linkedin_username: n960321
+# behance_username: johndoe
+# instagram_username: johndoe
+# medium_username: johndoe
+telegram_username: h_xian
+# dribbble_username: johndoe
+# flickr_username: johndoe
 
-#for comments using disqus
-disqus_shortname: sujay-kundu  
+#for comments using disqus 
+# disqus_shortname: n960321
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: n960321
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: n960321@gmail.com
 
 # syntax highlighter
 markdown: kramdown
@@ -89,12 +89,12 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10 
+google_analytics: UA-46783401-10
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # dont touch this unless required
 plugins:
@@ -106,7 +106,7 @@ plugins:
   - jekyll-algolia
 # - jekyll-archives
 
-# algolia search 
+# algolia search
 algolia:
   application_id: D9WA1YKTRQ
   index_name: blog_posts # You can replace that with whatever name you want
@@ -119,7 +119,7 @@ paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
 
-# minify 
+# minify
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -147,16 +147,18 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 theme: jekyll-theme-cayman
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - config.ru
