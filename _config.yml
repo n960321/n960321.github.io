@@ -159,3 +159,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - config.ru
+
+theme: jekyll-theme-cayman
