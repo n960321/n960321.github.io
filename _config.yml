@@ -33,7 +33,7 @@ author_work_experiences:
               company_logo: kc.png
               # company_url: https://google.com
               designation: Backend Engineer
-              description: 開發及維護遊戲伺服器專案
+              description: 使用golang開發及維護遊戲伺服器專案
               visibility: true
             - company_name: 恩連科技有限公司
               company_logo: netbwm.png
